@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Krishna Path Lab</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        background: linear-gradient(rgb(13, 101, 224), rgb(179, 13, 221));
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px;
+        position: sticky;
+        top: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+    }
+
+    #home {
+        background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("https://c0.wallpaperflare.com/preview/547/942/519/laboratory-medical-medicine-hand.jpg");
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: white;
+    }
+
+    #home h1 {
+        font-size: 60px;
+    }
+
+    #home p {
+        /* margin-left: 20%; */
+        font-size: 30px;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    .btn {
+        background: #00c6ff;
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #services {
+        padding: 60px 20px;
+        text-align: center;
+        background: #f4f6f8;
+    }
+
+    #services h2 {
+        margin-bottom: 30px;
+    }
+
+    .test {
+        background-color: white;
+        width: 250px;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .test-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        transition: 0.3s;
+    }
+
+    .test:hover {
+        transform: scale(1.04);
+    }
+
+    #contect {
+        background: linear-gradient(rgb(179, 13, 221), rgb(13, 101, 224));
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+
+    #contect h2 {
+        font-size: 45px;
+    }
+
+    #contact p {
+        margin: 10px 0;
+    }
+
+    footer {
+        background-color: #053750;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>
+            <i class="fa-solid fa-hand-holding-droplet"></i> New Krishna Path Lab
+        </h1>
+        <nav>
+            <a href="#home">Home <i class="fa-solid fa-house"></i></a>
+            <a href="#services">Services <i class="fa-solid fa-house-laptop"></i></a>
+            <a href="#contact">Contact <i class="fa-solid fa-tty"></i></a>
+        </nav>
+    </header>
+    <!-- Home -->
+    <section id="home">
+        <div>
+            <h1><i class="fa-solid fa-hand-holding-droplet"></i> New Krishna Path Lab</h1>
+            <p>Accurate Reports • Trusted Care</p>
+            <a href="tel:+919068605244" class="btn"><i class="fa-solid fa-phone-volume"></i> Call Now</a>
+            <a href="https://wa.me/919068605244" class="btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </section>
+    <!-- services -->
+    <section id="services">
+
+        <h2>Our Diagnostic Services</h2>
+        <div class="test-box">
+            <div class="test">🩸 Blood Test</div>
+            <div class="test">🧪 Urine Test</div>
+            <div class="test">❤️ Sugar & Thyroid</div>
+            <div class="test">🧬 CBC Test</div>
+            <div class="test">🩸CRP Test</div>
+            <div class="test">🫘Liver Test</div>
+            <div class="test">🫁Kidney Test</div>
+            <div class="test">🏥 Full Body Checkup</div>
+        </div>
+    </section>
+
+    <!-- contect -->
+    <section id="contact">
+        <h2>Contect Us</h2>
+
+        <p>📍 Address:<br>
+            Sarsaul GT Road, Aligarh (202001)
+        </p>
+
+        <p>📧 Email:<br>
+            rajputdrrakesh@gmail.com
+
+        <p>🕒 Timing: 7 AM – 8 PM</p>
+        </p>
+    </section>
+    <!-- map -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.3511169586632!2d78.03696907536423!3d27.91369760381933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a434836addbb%3A0xe342417dc57478a4!2sShiv%20Clinic!5e0!3m2!1sen!2sin!4v1775187067103!5m2!1sen!2sin"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        © 2026 New Krishna Path Lab | All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
